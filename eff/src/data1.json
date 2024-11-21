@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "nom_complet": "DUPONT Jean",
+    "événements": [
+      {
+        "thème": "Développement Web",
+        "date_debut": "2024-03-02",
+        "date_fin": "2024-03-15",
+        "description": "Introduction au développement web moderne",
+        "cout_journalier": 400,
+        "durée": 7
+      },
+      {
+        "thème": "Applications Mobiles",
+        "date_debut": "2024-04-01",
+        "date_fin": "2024-04-15",
+        "description": "Conception et développement d'applications mobiles",
+        "cout_journalier": 600,
+        "durée": 4
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nom_complet": "MARTIN Luc",
+    "événements": [
+      {
+        "thème": "Data Science",
+        "date_debut": "2024-05-10",
+        "date_fin": "2024-05-24",
+        "description": "Initiation à la data science et machine learning",
+        "cout_journalier": 600,
+        "durée": 14
+      },
+      {
+        "thème": "Big Data",
+        "date_debut": "2024-06-05",
+        "date_fin": "2024-06-20",
+        "description": "Gestion et analyse de données volumineuses",
+        "cout_journalier": 800,
+        "durée": 15
+      }
+    ]
+  }
+]
