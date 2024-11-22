@@ -151,7 +151,7 @@ export default function Produits({
                     })
                   }
                   className={`hover:bg-slate-600 cursor-pointer ${
-                    item.id == selectedProduit.id && "bg-slate-500"
+                    item.id == selectedProduit.id && "bg-slate-500" 
                   }`}
                 >
                   <td className="text-slate-200 p-2 border border-slate-500">
