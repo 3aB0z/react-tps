@@ -1,26 +1,18 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Verification from "./Verification";
-import Calcul_frais from "./Calcul_frais";
-
+import { Link } from "react-router-dom";
 export default function Menu() {
   return (
     <>
-      <Router>
-        <header>
-          <ul>
-            <li>
-              <Link to="/verification">Verification</Link>
-            </li>
-            <li>
-              <Link to="/calcul_frais">Calculator</Link>
-            </li>
-          </ul>
-        </header>
-        <Routes>
-          <Route path="/verification" element={<Verification />} />
-          <Route path="/calcul_frais" element={<Calcul_frais />} />
-        </Routes>
-      </Router>
+      <header className="w-full flex flex-row justify-evenly items-center py-6">
+        <Link
+          className="bg-blue-500 px-3 py-2 text-white rounded-lg"
+          to="/verification"
+        >
+          Verification
+        </Link>
+        <Link className="bg-blue-500 px-3 py-2 text-white rounded-lg" to="/">
+          Calcul frais
+        </Link>
+      </header>
     </>
   );
 }
